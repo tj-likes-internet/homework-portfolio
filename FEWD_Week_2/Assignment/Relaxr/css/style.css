@@ -45,12 +45,8 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
-     color: #000;
-     font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
 }
 
 
@@ -64,14 +60,47 @@ body {
   margin: auto;
   height: 500px;
 }
+.cta1 {
+      background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+      background-size: cover;
+      height: 500px;
+}
+.benefits {
+      background-color: #f0efef;
+      height: 300px;
+}
+.quote {
+      height: 200px;
+      background: url(../images/testimonial_bg.jpg);
+}
+.signup {
+      height: 60px;
+      background-color: #f9e42e;
+}
+.bottom {
+      height: 100px;
+}
+
 header {
        padding-top: 20px;
        padding-left: 40px;
        padding-bottom: 40px
 }
+
 h1 {
-       font-weight: bolder;
        font-size: 24px;
+       font-weight:700;
+}
+footer {
+       height: 200px;
+       background-color: #121212;
+}
+footer h1 {
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    color: #f9e42e;
 }
 h2 {
    font-weight: bold;
@@ -82,6 +111,8 @@ h2 {
 h3 {
    font-weight: bold;
    font-size: 20px;
+   padding-left: 40px;
+   padding-top: 40px;
 }
 h4 {
    font-weight: bold;
@@ -90,10 +121,21 @@ h4 {
 p {
   font-weight: lighter;
   font-size: 13px;
+  padding-top: 20px;
+  padding-left: 40px;
+  margin-right: 80px
+  margin-left: 80px;
+}
+footer p {
+  text-align: center;
+  color: white;
 }
 ul {
    font-weight: lighter;
    font-size: 13px;
+   padding-top: 20px;
+   padding-left: 100px;
+   list-style: disc;
 }
 .button {
   text-align: center;
@@ -102,9 +144,30 @@ ul {
   text-decoration: none;
   display: block;
 }
+blockquote {
+  padding-top: 40px;
+  text-align: center;
+  margin-right: 315px;
+  margin-left: 315px;
+  color: white;
+}
+.dash {
+  font-weight: lighter;
+}
 
-footer {
-
+.yellow {
+  width: 20px
+  border: 20px yellow; 
+  text-decoration: none;
+  color: white;
+}
+.blue {
+    padding-top: 20px;
+    padding-bottom: 20px;
+} 
+img {
+display: inline-block;
+align-content: center;
 }
 
 /******************************************

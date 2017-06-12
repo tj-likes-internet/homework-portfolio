@@ -1,0 +1,26 @@
+* {
+	box-sizing: border-box;
+}
+
+.placeholder {
+	padding: 20px;
+	border-radius: 5px;
+	background-color: gray;
+	height: 100px;
+	margin: 10px;
+}
+header {
+	overflow: auto;
+}
+main {
+	float: left;
+	width: 70%;
+}
+aside {
+	float: right;
+	width: 30%;
+}
+footer {
+	clear: both;
+	overflow: auto;
+}
