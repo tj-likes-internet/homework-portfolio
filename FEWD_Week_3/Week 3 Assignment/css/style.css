@@ -1,0 +1,228 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     background-color: #f0efef;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: 'Open Sans', Sans Sarif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+.container {
+  width: 85%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+img {
+  width: 100%;
+  padding-bottom: 3%;
+}
+header {
+  height: 100px;
+  background-color: #033048;
+}
+header h1 {
+  float: left;
+  font-size: 40px;
+  font-weight : 800;
+  padding-top: 20px;
+  color: white;
+}
+nav {
+  float: right;
+  padding: 40px 0 30px 0;
+  display: block;
+  width: 50%;
+}
+nav a {
+  padding: 0 5% 5% 0;
+  text-decoration: none;
+  color: #f9e42e;
+  font-size: 18px;
+  font-weight: 600;
+}
+nav a:hover {
+  color: white;
+}
+section {
+  float: left;
+  width: 70%;
+  padding-top: 5%;
+  margin: 0;
+}
+h2 {
+  font-weight: 600;
+  font-size: 40px;
+  padding-bottom: 3%;
+  line-height: 105%;
+}
+section p{
+  font-size: 24px;
+  font-weight: 300;
+  padding: 0 0 4% 0;
+}
+section a{
+  padding-bottom: 3%;
+  text-align: right;
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #033048;
+  display: block;
+}
+.sec {
+  padding-bottom: 5%;
+}
+.sec a:hover {
+  color: #f9e42e ;
+}
+aside {
+  padding-top: 5%;
+  float: right;
+  width: 24%;
+}
+aside h3{
+  font-size: 32px;
+  font-weight: 800;
+  color: #033048;
+  padding: 0 0 5% 0;
+}
+aside p{
+  font-size: 24px;
+  font-weight: 300;
+}
+aside ul a {
+  font-size: 24px;
+  font-weight: 300;
+  text-decoration: none;
+  color: #033048;
+}
+aside ul a:hover {
+  color: #f9e42e;
+}
+.asideblock {
+  padding-bottom: 10%;
+}
+.asidelearnmore a {
+  text-decoration: none;
+  text-align: right;
+  color: #033048;
+  font-weight: 600;
+  font-size: 24px;
+  display: block;
+  padding-top: 5%;
+}
+.asidelearnmore a:hover {
+  color: #f9e42e;
+}
+.asideblock p a:hover{
+  color: yellow;
+}
+.cta {
+  overflow: auto;
+  clear: auto;
+  padding: 2% 0 2% 0 ;
+  background-color: #f9e42e;
+}
+.ctabutton {
+  background-color: #033048;
+  margin: 0 auto;
+  width: 15%;
+  height: 60px;
+  border-radius: 10px
+}
+.ctabutton:hover {
+  background-color: orange;
+  }
+.ctabutton a {
+  text-decoration: none;
+   color: white;
+   text-align: center;
+   display: block;
+   font-size: 24px;
+   font-weight: 600;
+   padding-top: 5%;
+}
+footer {
+  height: 400px;
+  text-align: center;
+  background-color: #121212;
+  padding-top: 40px;
+}
+footer h1{
+  padding: 50px 0 5% 0;
+  font-size: 40px;
+  font-weight : 800;
+  padding-top: 20px;
+  color: #f9e42e;
+}
+footer p{
+  color: white;
+  padding: 0 0 10px 0;
+}
+footer img{
+  height: 100px;
+  width: 100px;
+}
+.image {
+  display: inline-block;
+  padding: 5px 5px 20px 5px;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
+
