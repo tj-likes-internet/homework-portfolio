@@ -11,26 +11,38 @@
 
 //Functions:
 
-
 // - pull from #submit-btn
 
 //Get the first element from an attribute name using ```$.attr()```
 
-//lower case restrictor
+//lower case restrictor//////////////
 function toLowercase(city){
 	return city.toLowercase();
 }
-	
-//show image functions:
+// can I write this inline somewhere?
+
+//show image functions://////////////
+
 //write showAustin
 function showAustin(){
 	$('body').css('background-image', 'url(images/austin.jpg)');
-
 }
 //write showLa
+function showLa(){
+	$('body').css('background-image', 'url(images/la.jpg)');
+}
 //write showNyc
+function showNyc(){
+	$('body').css('background-image', 'url(images/nyc.jpg)');
+}
 //write showSf
+function showSf(){
+	$('body').css('background-image', 'url(images/sf.jpg)');
+}
 //write showSydney
+function showSydney(){
+	$('body').css('background-image', 'url(images/sydney.jpg)');
+}
 //write resetbackround
 
 //onSubmit: store input, recognize as a string, turn lowercase, store as var = city.
@@ -41,10 +53,10 @@ $(document).ready(function(){
 	$('#submit-btn').submit(function(event){
 	event.preventDefault();
 	// set value of form input to city
-	var city = ('#city-type').val();
-	//set city to string
+	var city = $('#city-type').val();
 
 
+	//set city to string and value city
 });
 	
 	//on document ready
