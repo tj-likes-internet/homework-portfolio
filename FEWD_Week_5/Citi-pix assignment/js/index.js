@@ -9,6 +9,10 @@
 
 //////////////////////////
 
+//variables
+var city = document.getElementById("city-type").value;
+
+
 //Functions:
 
 // - pull from #submit-btn

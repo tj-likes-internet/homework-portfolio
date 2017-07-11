@@ -92,11 +92,11 @@ var q10 = 213;
 // of q6, then insert the value of q10 at the end of q11.
 // Remember that the last element in an array is at array[array.length-1].
 
-var q11 = 
+var q11 = q6[array.length-1]
 
 
 /*--------------------*/
-
+/*
 // Question 12:
 // Create an array called q12 with all of the values from 0 to 100 (hint: use a loop). q12 = for ()
 //q12 = for (var n = 0; n < 100; n++)
@@ -109,7 +109,7 @@ while (i < 101){
 
 
 }
-
+*/
 /*--------------------*/
 
 // Question 13:
