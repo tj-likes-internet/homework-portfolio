@@ -92,7 +92,7 @@ var q10 = 213;
 // of q6, then insert the value of q10 at the end of q11.
 // Remember that the last element in an array is at array[array.length-1].
 
-var q11 = q6[array.length-1]
+var q11 = q6[array.length-1];
 
 
 /*--------------------*/
