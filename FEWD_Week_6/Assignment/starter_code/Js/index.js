@@ -35,7 +35,7 @@ console.log('city-type');
 	
 $(document).ready(function(){
 	for(i=0; i < whatCity.length; i++){
-		$('city-type').append('option'+whatCity[i]+"</option>")
+		$('city-type').append('option'+whatCity[i]+"</option>")c
 	}
 
 imageOptions.push(src = "citipix_skyline.jpg", "nyc.jpg", src = "sf.jpg", src = "la.jpg", src = "austin.jpg", src = "sydney.jpg");

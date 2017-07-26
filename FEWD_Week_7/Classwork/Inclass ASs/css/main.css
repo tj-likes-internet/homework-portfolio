@@ -1,0 +1,71 @@
+* {
+	box-sizing: border-box;
+}
+
+.clearfix:after {
+	clear:both;
+	content:"";
+	display: block;
+}
+
+/* when you have to approximate, work in ratios */
+
+header, .hero, nav a, .hamburger, .col-3, footer, .col-4{
+	border: 2px solid black;
+	background-color: #444;
+}
+
+header, .container {
+	padding: 10px;
+}
+
+header a {
+	display:block;
+	float:left;
+	height: 50px;
+	width: 100px;
+	margin-right:5px;
+}
+
+.hamburger {
+	height: 50px;
+	width: 65px;
+	float: right;
+	padding: 0 15px;
+	display: hidden;
+}
+
+.line {
+	height: 2px;
+	background: #000;
+	margin-top: 10px;
+}
+
+.hero {
+	height:150px;
+r
+}
+
+.col-3 {
+	float: left;
+	height: 125px;
+	width: calc(20% - 5% + 5%/3);
+	margin: 10px 5% 10px 0;
+}
+
+.col-3: last-child {
+	margin: 0;
+}
+
+footer {
+	padding: 15px;
+}
+.col-4 {
+	height: 125px;
+	foat: left;
+	width: 33%;
+}
+
+@media only screen and(max-width: 740px){
+
+}
