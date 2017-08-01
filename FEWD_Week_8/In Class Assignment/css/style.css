@@ -1,0 +1,55 @@
+* {
+	font-family: 'Anton', sans-serif;
+}
+
+body {
+	background-image: url("images/couchguy.jpeg")
+}
+
+header {
+	text-align: center;
+	color: #444;
+}
+
+
+#listbox {
+	margin: 0 auto;
+	width: 40%;
+	padding: 10% 0 10% 0 ;
+}
+
+ul {
+	background-color: #444;
+	color: white;
+}
+
+form {
+	background-color: #444;
+	color: white;
+	padding: 3% 0 3% 0 ;
+	text-align: center;
+
+}
+
+input[type=text] {
+	border: none;
+
+}
+
+input[type=submit] {
+	border: none;
+		background: #444;
+	color: white;a
+}
+
+a { 
+	display: block;
+	margin: 0 auto;
+	width: 10%;
+	background-color: #444;
+	color: white;
+	padding: 15px 15px 15px 15px;
+	text-decoration: none;
+
+
+}

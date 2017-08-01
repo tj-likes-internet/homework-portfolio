@@ -1,0 +1,57 @@
+* {
+	font-family: Helvetica, times;
+}
+
+.clearfix:after {
+  content: "";
+  display: inline-block;
+  clear: both;
+}
+
+/* Hamburger Menu */
+
+.crabbypatty {
+	height: 6px;
+	width: 12%;
+	float: right;
+	padding: 3em 1em;
+}
+
+.pickle1, .pickle2, .pickle3 {
+	width: 70%;
+	height: 18px;
+	background: #444;
+	margin-bottom:10px;
+	transition: .04s;
+}
+
+/* Logo Section */
+
+.logo {
+	float: left;
+}
+
+.logo img {
+	width: 50%;
+	margin: 1em 0 0 4em;
+}
+
+.myname {
+	float: right;
+	font-size: 2em;
+	line-height: 24px;
+	font-weight: 600;
+	margin: .6em 12em 0 0;
+}
+ 
+/* Footer */
+
+#social {
+	margin: 5em 0 2em 17em;
+
+}
+
+
+#social img {
+	width: 12%;
+}
