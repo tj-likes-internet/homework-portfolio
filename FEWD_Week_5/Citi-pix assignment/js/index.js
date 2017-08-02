@@ -51,38 +51,29 @@ function showSydney(){
 //onSubmit: store input, recognize as a string, turn lowercase, store as var = city.
 
 	//on document ready
-$(document).ready(function(){
+	$(document).ready(function(){
 	//prevent form submission on submit button.
-	$('#submit-btn').submit(function(event){
-	event.preventDefault();
+	$('form').submit(function(event){
+		event.preventDefault();
 	// set value of form input to city
 	var city = $('#city-type').val();
+	city = city.toLowerCase();
+	console.log(city);
 
+	if (city === "los angeles" || city === "la" ) {
+		showLa();
+	} else if (city === "austin" || city === "atx" ) {
+		showAustin();
+	} else if (city === "sydney" || city === "syd" ) {
+		showSydney();
+	} else if (city === "new york" || city === "ny" ) {
+		showLa();
+	} else if (city === "san francisco" || city === "sf" ) {
+		showLa();
+	} 
 
-	//set city to string and value city
-});
-	
-	//on document ready
-
-//event handlers?
-
-//Conditionals:
-
-// (ifString) if text is string run conditional; if false do nothing (findImage)
-// (findImage) 
-// use || or indicator
-// if text is === to a-u-s-t run showAustin
-// else if city is === to a-t-x run showAustin || 
-// else if city is === to l-o-s-a run showLa
-// else if city is === to l-a run showLa
-// else if city is === to n-e-w-y run showNyc
-// else if city is === to n-y run showNyc
-// else if city is === to s-a-n-f run showSf
-// else if city is === to s-f run showSf
-// else if city is === to s-y-d run showSydney
-// else if city is === to s-y run showSydney
-
-////////////////////////////
+	$('#city-type').val('');
+})
 
 });
 
