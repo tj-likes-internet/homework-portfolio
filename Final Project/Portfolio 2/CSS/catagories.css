@@ -1,0 +1,298 @@
+* {
+	font-family: Helvetica, times;
+
+}
+
+.clearfix:after {
+  content: "";
+  display: inline-block;
+  clear: both;
+}
+
+
+
+/* Hamburger Menu */
+.navbar {
+	padding-bottom: 120px;
+}
+
+.hamburger {
+	float: right;
+	width: 10%;
+	margin: 1.6em 1.6em 0 0 ;
+}
+
+.pickle {
+	width: 80%;
+	height: 18px;
+	background-color: #444;
+	margin: 0 0 .6em 0 ;
+}
+
+.mainNavDropDown {
+	list-style: none;
+	background: #444;
+	padding: 1em 0 1em 0;
+	display: none;
+}
+
+ul a {
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	font-size: 2em;
+	height: 2em;
+	color: white;
+	margin: 1em 0 0 2em;
+	width: 88%;
+	padding-bottom: .7em;
+}
+
+li {
+	padding-top: .5em;
+}
+ ul a:hover {
+ 	background: white;
+ 	color: #444;
+ }
+
+/* Logo Section */
+
+.logo {
+	float: left;
+}
+
+.logo img {
+	width: 30%;
+	margin: 1.8em 0 0 3em;
+}
+
+
+/* Main */
+
+#titlebox {
+	width: 50%;
+	margin: 0 auto 2em auto;
+	text-align: center;
+	font-size: 4em;
+	letter-spacing: 8px;
+	color: #282828;
+}
+ 
+article {
+	height: 550px;
+	background-size: 100%;
+	margin: 2.2em 1.8em;
+}
+
+.ctabutton {
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	padding: .8em 1em .8em 1em;
+	color: white;
+	background: #282828;
+	width: 40%;
+	height: 50px;
+	margin: 1em auto 3em auto;
+	font-size: 3em;
+	font-weight: 400;
+	letter-spacing: 2px;
+}
+
+/* PHOTO PAGE */
+.photo1 {
+	background-image: url("../images/photo1.png");
+	background-repeat: no-repeat;
+}
+.photo2 {
+	background-image: url("../images/bmw.jpg");
+	background-repeat: no-repeat;
+}
+.photo3 {
+	background-image: url("../images/bridgeshot.jpg");
+	background-repeat: no-repeat;
+}
+.photo4 {
+	background-image: url("../images/beachfriends.jpg");
+
+
+}
+.photo5 {
+	background-image: url("../images/bikeroad.jpg");
+	background-repeat: no-repeat;
+}
+.photo6 {
+	background-image: url("");
+	background-repeat: no-repeat;
+}
+.photo7 {
+	background-image: url("");
+	background-repeat: no-repeat;
+}
+.photo8 {
+	background-image: url("");
+	background-repeat: no-repeat;
+}
+
+
+/* Design */
+
+.design1 {
+	background-image: url("../images/graphicdesign1.png");
+	background-repeat: no-repeat;
+}
+.design2 {
+	background-image: url("../images/design2.png");
+	background-repeat: no-repeat;
+}
+
+.design3 {
+	background-image: url("../images/design3.png");
+	background-repeat: no-repeat;
+}
+
+.design4 {
+	background-image: url("../images/design4.png");
+	background-repeat: no-repeat;
+}
+
+.design5 {
+	background-image: url("../images/design5.png");
+	background-repeat: no-repeat;
+}
+
+/* Video Images */
+
+.video1 {
+	background-image: url("../images/video1.png");
+	background-repeat: no-repeat;
+
+}
+.video2 {
+	background-image: url("../images/video2.jpg");
+	background-repeat: no-repeat;
+}
+
+/* About Me */
+
+.aboutme {
+	background-image: url("../images/blog5.png");
+	background-repeat: no-repeat;
+}
+
+h2{
+	margin: 0 0 0 2.8em;
+
+}
+
+.aboutmetext p {
+	font-size: 1em;
+	margin: 1em 4em ;
+}
+
+/* BLOG */
+
+.blog1 {
+	background-image: url("../images/blog1.jpg");
+	background-repeat: no-repeat;
+	margin-bottom: 7em;
+}
+
+.blog2 {
+	background-image: url("../images/blog2.jpg");
+	background-repeat: no-repeat;
+	margin-bottom: 7em;
+}
+
+.blog3 {
+	background-image: url("../images/blog3.jpg");
+	background-repeat: no-repeat;
+	margin-bottom: 7em;
+}
+
+.blog4 {
+	background-image: url("../images/blog4.jpg");
+	background-repeat: no-repeat;
+	margin-bottom: 7em;
+}
+
+.blog5 {
+	background-image: url("../images/blog5.png");
+	background-repeat: no-repeat;
+}
+
+/* Form */
+
+input[type=text] {
+	display: block;
+	width: 60%;
+	text-align: center;
+	font-size: 3em;
+	margin: 0 3em 1em;
+	background: #f2f2f2;
+	border: none;
+	padding: .5em 1em;
+}
+
+fieldset {
+border: none;
+}
+
+fieldset input[type=text]{
+	display: block;
+	width: 62s%;
+	font-size: 3em;
+	margin: 0 3em 1em;
+	background: #f2f2f2;
+	border: none;
+	padding: 5em 1em;
+
+}
+
+.button {
+	margin: .5em 0 0 1em;
+	background: #282828;
+	color: white;
+	width: 45%;
+	float: right;
+	font-size: 1.4em;
+	margin: -1.2em -.8em 0 0;
+	padding: 1.5em 1.5em;
+}
+
+#playbutton {
+	width: 15%;
+	margin: 0 auto 0 auto;
+}
+
+#playbutton img:hover {
+	height: 200%;
+}
+
+#playbutton img {
+	width: 100%;
+	margin: 12em 0 0 3em;
+}
+
+
+.summary {
+	float: left;
+	width: 70%;
+	margin: 16.5em 0 0 3em;
+}
+
+.summary p {
+	color: white;
+	font-size: 2em;
+}
+/* Footer */
+
+#social {
+	margin: 5em 0 2em 17em;
+
+}
+
+#social img {
+	width: 12%;
+}

@@ -1,6 +1,3 @@
- 
-console.log("ready");
-
-function openMenu(x) {
-    x.classList.toggle("change");
-}
+$('.hamburger').on('click', function(){
+  $('.mainNavDropDown').slideToggle(500);
+ });

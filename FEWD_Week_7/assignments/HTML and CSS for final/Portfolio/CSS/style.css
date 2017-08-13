@@ -140,3 +140,15 @@
 #social img {
 	width: 12%;
 }
+
+#social a:hover {
+	width: 14%;
+}
+
+@media  screen and (min-width: 1224) {
+
+	.pickle {
+		height: 1px;
+
+	}
+}
